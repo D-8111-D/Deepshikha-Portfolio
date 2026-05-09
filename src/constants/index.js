@@ -1,28 +1,36 @@
 import {
-    backend,
-    carrent,
-    creator,
-    css,
-    docker,
-    figma,
-    git,
-    html,
-    javascript,
-    jobit,
-    meta,
-    mobile,
-    mongodb,
-    nodejs,
-    reactjs,
-    redux,
-    shopify,
-    starbucks,
-    tailwind,
-    tesla,
-    threejs,
-    tripguide,
-    typescript,
-    web,
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+  disclosure360,
+  tss,
+  sass,
+  angular,
+  java,
+  python,
+  springboot,
+  bootstrap,
 } from "../assets";
 
 export const navLinks = [
@@ -61,11 +69,11 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -77,94 +85,77 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Sass",
+    icon: sass,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Git",
+    icon: git,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "java",
+    icon: java,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Springboot",
+    icon: springboot,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Associate Software Engineer",
+    company_name: "TSS Consultancy Pvt Ltd.",
+    icon: tss,
+    iconBg: "#FFFFFF",
+    date: "June 2022 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using Angular and Springboot and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, Quality analyst and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Software Engineer",
+    company_name: "Disclosure360 Solution Pvt Ltd.",
+    icon: disclosure360,
+    iconBg: "#FFFFFF",
+    date: "December 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and delivered resilient RESTful APIs within a microservices architecture.",
+      "Led schema design and data flow strategies to enable seamless feature integration.",
+      "Implemented shared and reusable components, utilities, directives, and pipes in an NX monorepo Angular project, services, middlewares, and modules in spring boot project.",
+      "Collaborated cross-functionally with QA, DevOps, and Product teams to streamline CI/CD pipelines, automate deployments, and reduce production bugs by 40%.",
+      "Integrated Cypress for end-to-end (E2E) testing, enhancing test automation, improving code quality, reducing manual testing efforts, and mentoring peers to elevate overall team performance.",
     ],
   },
 ];
@@ -198,9 +189,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Quiz Blitz",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Real-time multiplayer quiz platform that enables users to create, join, and participate in interactive quiz sessions with live leaderboards, AI-generated questions, secure authentication, and time-based scoring for an engaging learning experience.",
     tags: [
       {
         name: "react",
@@ -214,9 +205,21 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "green-text-gradient",
+      },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/D-8111-D/multiplayerquizz.git",
   },
   {
     name: "Job IT",
@@ -262,5 +265,4 @@ const projects = [
   },
 ];
 
-export { experiences, projects, services, technologies, testimonials };
-
+export { services, technologies, experiences, testimonials, projects };
