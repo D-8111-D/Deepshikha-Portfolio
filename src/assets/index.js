@@ -33,9 +33,11 @@ import tesla from "./company/tesla.png";
 import disclosure360 from "./company/disclosure360.jpg";
 import tss from "./company/tss.jpg";
 
-import carrent from "./logo/carrent.png";
 import jobit from "./logo/jobit.png";
+import japanese from "./logo/japanese.png";
 import tripguide from "./logo/tripguide.png";
+import quizzblitz from "./logo/quizzblitz.png";
+import smartcater from "./logo/smartcater.png";
 
 export {
   logo,
@@ -65,7 +67,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  quizzblitz,
+  smartcater,
+  japanese,
   jobit,
   tripguide,
   angular,
