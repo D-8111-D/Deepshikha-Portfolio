@@ -67,7 +67,7 @@ const Contact = () => {
               ...prev,
               show: false,
             }));
-          }, 300000);
+          }, 3000);
 
           setForm({
             name: "",
