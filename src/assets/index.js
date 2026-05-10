@@ -28,6 +28,7 @@ import sass from "./tech/sass.svg";
 import java from "./tech/java.svg";
 import disclosure360 from "./company/disclosure360.jpg";
 import tss from "./company/tss.jpg";
+import deepu from "./logo/deepu.jpg";
 
 import jobit from "./logo/jobit.png";
 import japanese from "./logo/japanese.png";
@@ -41,6 +42,7 @@ export {
   mobile,
   web,
   github,
+  deepu,
   menu,
   close,
   css,
