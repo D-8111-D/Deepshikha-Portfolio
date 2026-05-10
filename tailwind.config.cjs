@@ -22,7 +22,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/logo/herobg.png')",
+        // "hero-pattern": "url('/src/assets/logo/herobg.png')",
       },
 
       animation: {

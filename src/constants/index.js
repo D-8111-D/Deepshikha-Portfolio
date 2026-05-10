@@ -8,21 +8,12 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
   mongodb,
+  smartcater,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  quizzblitz,
+  japanese,
   disclosure360,
   tss,
   sass,
@@ -32,7 +23,6 @@ import {
   springboot,
   bootstrap,
 } from "../assets";
-
 export const navLinks = [
   {
     id: "about",
@@ -50,20 +40,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
+  },
+  {
+    title: "Angular Developer",
+    icon: web,
+  },
+  {
+    title: "React Developer",
+    icon: mobile,
   },
 ];
 
@@ -218,50 +208,68 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: quizzblitz,
     source_code_link: "https://github.com/D-8111-D/multiplayerquizz.git",
   },
   {
-    name: "Job IT",
+    name: "Learn Japanese",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Interactive Japanese learning platform that enables users to translate English to Japanese, hear accurate audio pronunciations, and practice animated Hiragana letter writing through an engaging and beginner-friendly learning experience.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "turtle",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tkinter",
         color: "pink-text-gradient",
       },
+      {
+        name: "gTTS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Pyttsx3",
+        color: "green-text-gradient",
+      },
+      { name: "googletrans", color: "yellow-text-gradient" },
+      { name: "deep_translator ", color: "red-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: japanese,
+    source_code_link: "https://github.com/D-8111-D/learn-Japanese-Letters.git",
   },
   {
-    name: "Trip Guide",
+    name: "SmartCater",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Modern catering management platform that enables customers to browse menus, place food orders, and make secure online payments while helping caterers efficiently manage orders and services through an interactive admin dashboard.",
     tags: [
       {
-        name: "nextjs",
+        name: "springboot",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "java",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "primng",
+        color: "red-text-gradient",
+      },
+      {
+        name: "angular",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongodb",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: smartcater,
+    source_code_link: "https://github.com/D-8111-D/Deepshikha-Portfolio",
   },
 ];
 

@@ -26,16 +26,13 @@ import bootstrap from "./tech/bootstrap.png";
 import springboot from "./tech/spring-boot.svg";
 import sass from "./tech/sass.svg";
 import java from "./tech/java.svg";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import disclosure360 from "./company/disclosure360.jpg";
 import tss from "./company/tss.jpg";
 
-import carrent from "./logo/carrent.png";
 import jobit from "./logo/jobit.png";
-import tripguide from "./logo/tripguide.png";
+import japanese from "./logo/japanese.png";
+import quizzblitz from "./logo/quizzblitz.png";
+import smartcater from "./logo/smartcater.png";
 
 export {
   logo,
@@ -61,13 +58,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
+  quizzblitz,
+  smartcater,
+  japanese,
   jobit,
-  tripguide,
   angular,
   python,
   springboot,
