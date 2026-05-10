@@ -8,23 +8,12 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
   mongodb,
   smartcater,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   quizzblitz,
   japanese,
-  jobit,
-  tripguide,
-  threejs,
   disclosure360,
   tss,
   sass,
@@ -34,7 +23,6 @@ import {
   springboot,
   bootstrap,
 } from "../assets";
-
 export const navLinks = [
   {
     id: "about",
@@ -281,7 +269,7 @@ const projects = [
       },
     ],
     image: smartcater,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/D-8111-D/Deepshikha-Portfolio",
   },
 ];
 
